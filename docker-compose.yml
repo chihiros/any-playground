@@ -8,7 +8,7 @@ services:
     ports:
       - "3000:80"
 
-  php:
+  api-php:
     build:
       context: ./engine/php
       dockerfile: Dockerfile.php
